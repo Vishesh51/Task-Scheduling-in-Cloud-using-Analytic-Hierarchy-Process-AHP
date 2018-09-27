@@ -1,0 +1,116 @@
+ant -f C:\\Users\\vishesh\\Documents\\NetBeansProjects\\cloudsim -Dnb.internal.action.name=run run
+init:
+Deleting: C:\Users\vishesh\Documents\NetBeansProjects\cloudsim\build\built-jar.properties
+deps-jar:
+Updating property file: C:\Users\vishesh\Documents\NetBeansProjects\cloudsim\build\built-jar.properties
+Compiling 1 source file to C:\Users\vishesh\Documents\NetBeansProjects\cloudsim\build\classes
+compile:
+run:
+Starting CloudSim Example...
+Initialising...
+enter the resource matrix
+9.335936
+5.641287
+12.842186
+0.099092804
+0.19941875
+0.17307492
+0.069708355
+0.1340702
+0.3578854
+0.8311988
+0.66651106
+0.4690397
+CSE2
+0.1571955
+0.18722133
+0.6555832
+enter the job  matrix
+28.507847
+38.5871
+29.16069
+30.078003
+28.6699
+26.806976
+CSE2
+0.15376717	0.11276811	0.19416654	0.24381822	0.14025716	0.1552228	
+
+enter the job  matrix
+32.530647
+29.623768
+26.816032
+13.075184
+28.240246
+38.068043
+CSE2
+0.17659718	0.10662911	0.1788155	0.29790947	0.06639413	0.17365463	
+
+enter the job  matrix
+16.727242
+30.808199
+34.42046
+25.90166
+26.851217
+23.079046
+CSE2
+0.20760383	0.1439432	0.25102487	0.19339214	0.14366357	0.060372353	
+
+0.15376717	0.17659718	0.20760383	
+0.11276811	0.10662911	0.1439432	
+0.19416654	0.1788155	0.25102487	
+0.24381822	0.29790947	0.19339214	
+0.14025716	0.06639413	0.14366357	
+0.1552228	0.17365463	0.060372353	
+Priority Order
+0.19333586
+0.13205662
+0.22856787
+0.22088677
+0.12866162
+0.09649128
+sorted priorities
+0.22856787	2
+0.22088677	3
+0.19333586	0
+0.13205662	1
+0.12866162	4
+0.09649128	5
+Starting CloudSim version 3.0
+Datacenter_0 is starting...
+Broker is starting...
+Entities started.
+0.0: Broker: Cloud Resource List received with 1 resource(s)
+0.0: Broker: Trying to Create VM #0, VM #1 & VM #2 in Datacenter_0
+0.1: Broker: VM #0, VM #1 & VM #2 has been created in Datacenter #2, Host #0
+0.1: Broker: Sending cloudlet 2 to VM #0
+0.1: Broker: Sending cloudlet 3 to VM #0
+0.1: Broker: Sending cloudlet 0 to VM #1
+0.1: Broker: Sending cloudlet 1 to VM #1
+0.1: Broker: Sending cloudlet 4 to VM #2
+0.1: Broker: Sending cloudlet 5 to VM #2
+600.096: Broker: Cloudlet 2 received
+600.096: Broker: Cloudlet 3 received
+600.096: Broker: Cloudlet 0 received
+600.096: Broker: Cloudlet 1 received
+600.096: Broker: Cloudlet 4 received
+600.096: Broker: Cloudlet 5 received
+600.096: Broker: All Cloudlets executed. Finishing...
+600.096: Broker: Destroying VM #0, VM #1 & VM #2
+Broker is shutting down...
+Simulation: No more future events
+CloudInformationService: Notify all CloudSim entities for shutting down.
+Datacenter_0 is shutting down...
+Broker is shutting down...
+Simulation completed.
+Simulation completed.
+
+========== OUTPUT ==========
+Cloudlet ID    STATUS    Data center ID    VM ID    Time    Start Time    Finish Time
+    2        SUCCESS        2            0        600        0.1        600.3
+    3        SUCCESS        2            0        600        0.1        600.3
+    0        SUCCESS        2            1        600        0.1        600.15
+    1        SUCCESS        2            1        600        0.1        600.15
+    4        SUCCESS        2            2        600        0.1        600.1
+    5        SUCCESS        2            2        600        0.1        600.1
+AHP with TC & VC Successfully Executed!!!
+BUILD SUCCESSFUL (total time: 1 second)
